@@ -1,0 +1,36 @@
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.middle {
+    outline: solid purple;
+    text-align: center;
+}
+
+button {
+    font-size: 16px;
+    margin: 12px;
+    padding: 16px;  /*for accessibility to make the clickable area larger but it didn't work*/
+    background-color: transparent;
+    border-color: transparent;
+}
+
+h2 {
+    margin-top: 50px;
+}
+
+button:hover {
+    font-size: 24px;
+    background-color: red;
+    border-radius: 90px;
+}
+
+button.home {
+    margin: 2px;
+}
+
+button.home:hover {
+    font-size: 18px;
+    background-color: aquamarine;
+    border-radius: 10px;
+}
